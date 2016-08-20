@@ -1,0 +1,76 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "flexslider";
+
+.navbar, .btn.btn-default.btn-lg {
+    background-color:transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar .navbar-default .container-fluid, .jumbotron, .container {
+	margin:0;
+	padding: 0;
+
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    border: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 18px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navbar-brand .btn.btn-default.btn-lg {
+	text-transform: Georgia;
+	font-family: sans-serif;
+
+}
+
+
+.flexslider {
+	height: 500px;
+}
+
+.flexslider .slides img {
+	height: 500px;
+	width: auto;
+}
+div.flexslider.container{
+	border:none;
+	margin:0;
+	padding: 0;
+	z-index: 10px;
+}
+.flex-direction-nav a {
+	margin:0;
+	padding: 0;
+	overflow:visible;
+	font-size: 0;
+}
+
+
+.jumbotron {
+	margin:0;
+	padding: 0;
+}
+.container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.jumbotron .container img {
+	background-position: center;
+	width: 100%;
+
+}

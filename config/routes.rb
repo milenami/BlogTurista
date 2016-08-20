@@ -1,15 +1,15 @@
 Rails.application.routes.draw do
   root 'static_pages#home'
 
-  get 'static_pages/about'
+  get 'about', to: 'static_pages#about'
 
-  get 'static_pages/travel'
+  get 'travel', to: 'static_pages#travel'
   
-  get 'static_pages/wheretogo'
+  get 'wheretogo', to: 'static_pages#wheretogo'
   
-  get 'static_pages/wheretostay'
+  get 'wheretostay', to: 'static_pages#wheretostay'
   
-  get 'static_pages/whattoseeanddo'
+  get 'whattoseeanddo', to: 'static_pages#whattoseeanddo'
   
 
 
