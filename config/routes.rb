@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   
   get 'whattoseeanddo', to: 'static_pages#whattoseeanddo'
   
+  resources :articles
 
 
   # The priority is based upon order of creation: first created -> highest priority.
